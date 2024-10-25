@@ -1,0 +1,104 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  /* Navbar */
+  .navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  
+  .navbar-nav .nav-link {
+    font-weight: 500;
+    margin-left: 15px;
+  }
+  
+  .nav-item .btn {
+    font-weight: 600;
+  }
+  
+  /* Carousel Styles */
+  .carousel-caption h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .carousel-caption p {
+    font-size: 1.2rem;
+    color: #eee;
+  }
+  
+  .carousel-caption .btn {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #333;
+    font-weight: 600;
+  }
+  
+  /* Main Content */
+  h2, h3 {
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .card {
+    border: none;
+    transition: transform 0.3s;
+  }
+  
+  .card-hover:hover {
+    transform: translateY(-10px);
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+  }
+  
+  .card-text {
+    color: #666;
+  }
+  
+  /* Progress Bars */
+  .progress-bar {
+    font-weight: bold;
+  }
+  
+  /* Subscription Section */
+  #subscription-section input[type="text"],
+  #subscription-section input[type="email"] {
+    border-radius: 0;
+    border: 1px solid #cccccc;
+  }
+  
+  #subscription-section .btn {
+    font-weight: bold;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #222;
+    color: #ddd;
+  }
+  
+  footer a {
+    color: #ddd;
+    margin: 0 5px;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 767px) {
+    .carousel-caption h1 {
+      font-size: 2.5rem;
+    }
+  
+    .carousel-caption p {
+      font-size: 1rem;
+    }
+  }
+  
